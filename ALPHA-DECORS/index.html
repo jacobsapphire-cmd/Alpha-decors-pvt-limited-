@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alpha Decors</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="logo.png" alt="Alpha Decors Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero" class="hero">
+        <h1>Alpha Decors</h1>
+        <p>Transforming Spaces with Style and Elegance</p>
+<section id="portfolio" class="portfolio">
+    <h2>Our Portfolio</h2>
+    <div class="gallery">
+        <img src="project1.jpg" alt="Project 1">
+        <img src="project2.jpg" alt="Project 2">
+        <img src="project3.jpg" alt="Project 3">
+    </div>
+</section>
+<section id="quote" class="quote">
+    <h2>Designs for Every Budget</h2>
+    <p>Get your dream home today. Let our experts help you.</p>
+    <form action="#" method="post">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Name" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Email" required>
+
+        <label for="phone">Phone Number</label>
+        <div class="phone-input">
+            <select id="country-code">
+                <option value="+91">🇮🇳 +91</option>
+                <!-- Add other country codes if necessary -->
+            </select>
+            <input type="tel" id="phone" name="phone" placeholder="Phone Number" required>
+        </div>
+
+        <label>
+            <input type="checkbox" name="whatsapp-updates" checked>
+            Send me updates on WhatsApp
+        </label>
+
+        <label for="property-name">Property Name</label>
+        <input type="text" id="property-name" name="property-name" placeholder="Property Name">
+
+        <button type="submit">GET FREE QUOTE</button>
+
+        <p class="small-text">By submitting this form, you agree to the 
+            <a href="#">privacy policy</a> & <a href="#">terms and conditions</a>.
+        </p>
+    </form>
+</section>
+<a href="https://wa.me/919789980012" target="_blank" class="whatsapp-link">
+    <img src="whatsapp-icon.png" alt="WhatsApp" />
+</a>
